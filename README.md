@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+📘 Favourite Student List — React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and beautifully styled React app that allows users to mark students as favourites using React Router, useContext, and smooth UI animations.
 
-## Available Scripts
+This project demonstrates global state management, navigation without reload, and dynamic rendering with a polished pastel-themed UI.
 
-In the project directory, you can run:
+🚀 Features
+✅ Student List Page
 
-### `npm start`
+Displays all students dynamically using map()
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Each student card includes:
+✓ Avatar
+✓ Name
+✓ Roll number
+✓ Grade badge
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+"Add to Favourite" button for each student
 
-### `npm test`
+Duplicate favourite prevention
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⭐ Favourite Students Page
 
-### `npm run build`
+Uses global state via useContext
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Shows only selected favourite students
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Option to remove from favourites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🌐 React Router Navigation
 
-### `npm run eject`
+Navigation without page reload
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Smooth fade-in page transitions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Uses <Link> for routing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🎨 Premium Pastel UI (Peach–Mint Theme)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Modern cards with soft glass style
 
-## Learn More
+Animated gradients in the background
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Glow effects, hover transitions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clean typography with Inter font
 
-### Code Splitting
+🧠 Tech Stack
+Category	Tools
+Frontend	React JS (Functional Components)
+Routing	React Router DOM
+State Management	React Context API (createContext, useContext)
+CSS	Custom pastel UI + animations
+📂 Folder Structure
+/src
+│── /components
+│     ├── Navbar.js
+│     ├── StudentCard.js
+│
+│── /context
+│     ├── StudentContext.js
+│
+│── /pages
+│     ├── StudentList.js
+│     ├── FavouriteStudents.js
+│
+│── App.js
+│── index.js
+│── styles.css
+⚙️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Follow these steps to run the project on your system:
